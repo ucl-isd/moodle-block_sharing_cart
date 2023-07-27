@@ -1,36 +1,36 @@
 /* SHARING CART TREE START */
 
-.block_sharing_cart div.card-text ul.tree li:hover {
+.block_sharing_cart div.card-text ul.sc-tree li:hover {
     background-color: rgba(0, 0, 0, .03);
 }
 
-.block_sharing_cart div.card-text ul.tree li.directory > div {
+.block_sharing_cart div.card-text ul.sc-tree li.directory > div {
     padding: 5px;
 }
 
-.block_sharing_cart div.card-text ul.tree li.activity {
+.block_sharing_cart div.card-text ul.sc-tree li.activity {
     padding: 5px;
 }
 
-.block_sharing_cart div.card-text ul.tree li.activity > div {
+.block_sharing_cart div.card-text ul.sc-tree li.activity > div {
     padding: 0;
 }
 
-.block_sharing_cart ul.tree li.disabled {
+.block_sharing_cart ul.sc-tree li.disabled {
     background-color: #f2dede;
 }
 
-.block_sharing_cart ul.tree li > div {
+.block_sharing_cart ul.sc-tree li > div {
     display: flex;
 }
 
-.block_sharing_cart ul.tree li > div form {
+.block_sharing_cart ul.sc-tree li > div form {
     display: flex;
     flex-wrap: nowrap;
 }
 
-.block_sharing_cart ul.tree li > div .instancename,
-.block_sharing_cart ul.tree li > div .instancename .no-overflow p {
+.block_sharing_cart ul.sc-tree li > div .instancename,
+.block_sharing_cart ul.sc-tree li > div .instancename .no-overflow p {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -39,7 +39,7 @@
     width: 100%;
 }
 
-.block_sharing_cart ul.tree li img.activityicon {
+.block_sharing_cart ul.sc-tree li img.activityicon {
     height: 16px;
     width: 16px;
     margin: auto 5px auto 0;

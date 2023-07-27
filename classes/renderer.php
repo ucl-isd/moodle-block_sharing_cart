@@ -41,7 +41,7 @@ class renderer {
      * @throws \coding_exception
      */
     public static function render_tree(array &$tree): string {
-        $html = html_writer::start_tag('ul', ['class' => 'tree list']);
+        $html = html_writer::start_tag('ul', ['class' => 'sc-tree list']);
 
         $requirede_capabilities = required_capabilities::init([
             'moodle/restore:restorecourse',
